@@ -1,0 +1,10 @@
+.lead__logo {
+  width: 12.5rem;
+  height: 3.240625rem;
+}
+@media screen and (min-width: 768px) {
+  .lead__logo {
+    width: 16.875rem;
+    height: 4.375rem;
+  }
+}

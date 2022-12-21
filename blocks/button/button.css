@@ -1,0 +1,18 @@
+.button {
+  width: 288px;
+  height: 48px;
+  background: #0278fe;
+  border-radius: 4px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    grid-area: button;
+    width: 355px;
+    height: 48px;
+  }
+}

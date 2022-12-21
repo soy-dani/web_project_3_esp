@@ -1,0 +1,19 @@
+.places {
+  width: 288px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+@media screen and (min-width: 768px) {
+  .places {
+    width: 720px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .places {
+    width: 987px;
+  }
+  .places:nth-last-child(3) .place:nth-child(1) {
+    max-width: 584px;
+  }
+}

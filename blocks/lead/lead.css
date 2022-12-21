@@ -1,0 +1,11 @@
+.lead {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.25rem;
+}
+
+@media screen and (min-width: 768px) {
+  .lead {
+    padding-top: 2.125rem;
+  }
+}

@@ -1,0 +1,19 @@
+.intro {
+  width: 288px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 44px;
+  padding-bottom: 38px;
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    width: 720px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .intro {
+    width: 1017px;
+    padding: 92px 0 92px;
+  }
+}
